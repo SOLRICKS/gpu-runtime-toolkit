@@ -54,13 +54,13 @@ Use the Python interpreter that already has your GPU libraries installed.
 The first Triton compile may take longer; the installed libraries may create
 normal compilation caches.
 
-## SageAttention test matrix
+## GPU Runtime Compatibility
 
 The default routes below are conservative, based on SageAttention 2 upstream
 dispatch and selected secondary probes. They are test candidates, not confirmed
 compatibility claims.
 
-| Architecture | Compute capability | Default SageAttention routes |
+| Architecture | Compute Capability | Attention Backends |
 |---|---|---|
 | Turing | SM75 | None; test CUDA/SDPA/Triton |
 | Ampere (A100) | SM80 | Auto, FP16 CUDA, FP16 Triton |
