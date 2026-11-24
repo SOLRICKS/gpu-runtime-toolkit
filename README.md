@@ -130,5 +130,3 @@ before declaring a hardware configuration supported.
 ## License
 
 MIT. The dependencies retain their respective licenses.
-
-[Website](https://solricks.com/en) · [Solricks Studio](https://solricks.studio) · [Hugging Face](https://huggingface.co/SOLRICKS)
