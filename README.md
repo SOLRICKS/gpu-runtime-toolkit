@@ -1,4 +1,4 @@
-# SOLRICKS GPU Runtime
+# GPU Runtime Toolkit
 
 GPU runtime diagnostics, compatibility testing, and inference optimization tools for local AI systems.
 
