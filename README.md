@@ -52,7 +52,7 @@ Use the Python interpreter that already has your GPU libraries installed.
 The first Triton compile may take longer; the installed libraries may create
 normal compilation caches.
 
-## GPU Runtime Compatibility
+## GPU Compatibility
 
 The default routes below are conservative, based on SageAttention 2 upstream
 dispatch and selected secondary probes. They are test candidates, not confirmed
