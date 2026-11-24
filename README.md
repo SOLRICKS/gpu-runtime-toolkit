@@ -2,8 +2,6 @@
 
 GPU runtime diagnostics, compatibility testing, and inference optimization tools for local AI systems.
 
-**Build. Optimize. Deploy.**
-
 A standalone Python CLI that validates actual CUDA, PyTorch SDPA, Triton and SageAttention execution. It uses the selected existing Python environment without installing, updating or removing its packages. ComfyUI is not required.
 
 ## Features
