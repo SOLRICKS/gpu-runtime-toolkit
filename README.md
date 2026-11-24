@@ -29,7 +29,7 @@ validation. GB10 unified memory is reported as CUDA-visible memory, not dedicate
 
 Clone the repository or extract the source archive. Run from its directory.
 
-### Windows — ComfyUI portable
+### Windows — ComfyUI
 
 ```powershell
 & "D:\ComfyUI_windows_portable\python_embeded\python.exe" .\runtime.py
@@ -108,16 +108,6 @@ The actual import and execution tests determine whether the selected API runs.
 `elapsed_seconds` includes process startup and compilation; it is **not** a
 kernel benchmark. JSON reports may contain system and local path details in
 diagnostic logs; review them before sharing publicly.
-
-## Development
-
-```shell
-python -m unittest discover -s tests -v
-python -m py_compile runtime.py triton_probe.py
-```
-
-The unit tests do not require CUDA. Physical GPU testing remains necessary
-before declaring a hardware configuration supported.
 
 ## References
 
