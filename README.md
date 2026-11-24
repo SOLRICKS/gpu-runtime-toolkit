@@ -1,6 +1,6 @@
-# SOLRICKS AI Runtime
+# SOLRICKS GPU Runtime
 
-GPU runtime diagnostics and compatibility testing for local AI systems.
+GPU runtime diagnostics, compatibility testing, and inference optimization tools for local AI systems.
 
 **Build. Optimize. Deploy.**
 
