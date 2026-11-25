@@ -14,7 +14,7 @@ A standalone Python CLI that validates actual CUDA, PyTorch SDPA, Triton and Sag
 - Separate subprocess and timeout for each GPU probe
 - Multi-GPU selection and machine-readable JSON reports
 
-## Requirements
+### Requirements
 
 Python 3.10+ and an existing NVIDIA CUDA-enabled PyTorch environment.
 Triton and SageAttention are optional; their versions must be compatible with
@@ -25,7 +25,7 @@ Windows and Linux, x86-64 and ARM64 are target environments; actual support
 depends on installed packages. This initial release candidate requires hardware
 validation. GB10 unified memory is reported as CUDA-visible memory, not dedicated VRAM.
 
-## Quick start
+### Quick start
 
 Clone the repository or extract the source archive. Run from its directory.
 
@@ -52,7 +52,7 @@ Use the Python interpreter that already has your GPU libraries installed.
 The first Triton compile may take longer; the installed libraries may create
 normal compilation caches.
 
-## GPU Compatibility
+### GPU Compatibility
 
 The default routes below are conservative, based on SageAttention 2 upstream
 dispatch and selected secondary probes. They are test candidates, not confirmed
@@ -85,7 +85,7 @@ worker crashes, but cannot prevent system-wide driver failures. Save work first.
 SageAttention 3 FP4, FlashAttention, model-weight FP8/NVFP4 and performance
 benchmarks are outside this version's scope.
 
-## Results
+### Results
 
 | Status | Meaning |
 |---|---|
@@ -109,12 +109,12 @@ The actual import and execution tests determine whether the selected API runs.
 kernel benchmark. JSON reports may contain system and local path details in
 diagnostic logs; review them before sharing publicly.
 
-## References
+### References
 
 - [PyTorch SDPA](https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html)
 - [Triton](https://triton-lang.org/)
 - [SageAttention upstream dispatch](https://github.com/thu-ml/SageAttention/blob/main/sageattention/core.py)
 
-## License
+### License
 
 MIT. The dependencies retain their respective licenses.
