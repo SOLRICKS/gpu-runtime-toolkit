@@ -4,7 +4,7 @@ GPU runtime diagnostics, compatibility testing, and inference optimization tools
 
 A standalone Python CLI that validates actual CUDA, PyTorch SDPA, Triton and SageAttention execution. It uses the selected existing Python environment without installing, updating or removing its packages. ComfyUI is not required.
 
-## Features
+### Features
 
 - GPU inventory, compute capability, CUDA build and driver information
 - Available GPU memory and reported native BF16 capability
