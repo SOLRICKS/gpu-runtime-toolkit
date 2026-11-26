@@ -29,16 +29,6 @@ validation. GB10 unified memory is reported as CUDA-visible memory, not dedicate
 
 Clone the repository or extract the source archive. Run from its directory.
 
-### ComfyUI
-
-Open PowerShell in the folder containing `runtime.py`. When prompted, paste the
-path to the ComfyUI portable folder that contains `python_embeded`.
-
-```powershell
-$comfyRoot = (Read-Host 'ComfyUI portable folder').Trim().Trim('"')
-& (Join-Path $comfyRoot 'python_embeded\python.exe') .\runtime.py
-```
-
 ### Windows / Linux — existing Python environment
 
 ```shell
